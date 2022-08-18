@@ -14,4 +14,4 @@ migrate = Migrate(app, db)
 from App import routes, models
 
 CORS(app)
-app.run(host="0.0.0.0", debug=True)
+app.run(host="0.0.0.0", port=8090, debug=True)
